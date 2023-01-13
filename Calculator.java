@@ -79,7 +79,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.print("Enter an equation (e.g. 2 + 2) or 'q' to quit: ");
+            System.out.print("Enter operation and follow the spacing (e.g. 1 - 2) or type 'q' to quit: ");
             String input = scanner.nextLine();
             if (input.equals("q")) {
                 break;
